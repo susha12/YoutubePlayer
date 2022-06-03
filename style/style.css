@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PlusJakartaDisplayMedium";
-    src: url(fonts/PlusJakartaDisplay-Medium.ttf) format("truetype");
+    src: url(../fonts/PlusJakartaDisplay-Medium.ttf) format("truetype");
 }
     @font-face {
     font-family: "PlusJakartaDisplayRegular";
-    src: url(fonts/PlusJakartaDisplay-Regular.ttf) format("truetype");
+    src: url(../fonts/PlusJakartaDisplay-Regular.ttf) format("truetype");
   }
   *{
       margin: 0;
