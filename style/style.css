@@ -56,7 +56,7 @@
 .input{
     height: 42.8px;
     width: 275px;
-    padding-left: 5px;
+    padding-left: 17px;
     position: relative;
     top: -15px;
     border-top-left-radius: 7px;
@@ -149,6 +149,8 @@ nav{
     background-color: #889DBA;
     border: 0.6px solid #6F8DAD;
     border-radius: 5px;
+    /* border: 2px solid red; */
+    padding-left: 12px;
 }
 
 .icons.nav{
@@ -179,10 +181,12 @@ nav{
  color: white;
  text-align: center;
  border-radius: 50px;
- padding-top: 2px;
+ padding-top: 1px;
  position: absolute;
  right: 10px;
  top: 15px;
+ font-size: 14px;
+ font-family: "PlusJakartaDisplayRegular";
 }
 
 
@@ -275,10 +279,12 @@ nav{
     justify-content: start;
 }
 .slider_left__title{
-    width: 358px;
-    height: 68px;
+    width: 411px;
+    height: 48px;
     /* border: 2px solid red; */
     font-size: 26px;
+    top: 5px;
+    position: relative;
     font-family: "PlusJakartaDisplayRegular";
 }
 
@@ -334,7 +340,7 @@ margin:15px 0px;
     width: 208px;
     border-radius: 5px;
     border: 2px solid #89dae839;
-    margin: 30% auto 30px;
+    margin: 30% auto 33px;
     font-family: "PlusJakartaDisplayRegular";
     font-size: 20px;
     cursor: pointer;
@@ -382,9 +388,10 @@ margin:15px 0px;
     align-items: center;
 }
 .small_slider__box{
+    padding: 12px;
     background-color: white;
     width: 305px;
-    height: 250px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -396,6 +403,7 @@ margin:15px 0px;
 .slider_box__img{
  /* height: 200px; */
  max-width: 285px;
+ margin-top: -10px;
 }
 .slider_box__text{
     font-size: 15px;
@@ -403,7 +411,7 @@ margin:15px 0px;
     font-family: "PlusJakartaDisplayMedium";
     position: relative;
     left: -21px;
-    margin-bottom: 5px;
+    margin-bottom: -0px;
     overflow: hidden;
 }
 /* footer  */
@@ -488,7 +496,7 @@ footer{
     font-size: 16px;
     /* border: 2px solid red; */
     width: 250px;
-    height: 20px;
+    height: 30px;
 }
 
 .slider_left__stars{
@@ -562,10 +570,13 @@ margin-top: 20px;
 .slider_box__img{
 
  max-width: 235px;
- margin-top: 5px;
+ margin-top: -4px;
 }
 .slider_box__text{
     font-size: 12px;
+    left: -21px;
+    margin-bottom: -6px;
+    overflow: hidden;
 }
 /* footer  */
 footer{
@@ -832,11 +843,11 @@ nav{
 
 }
 .slider_left__title{
-    width: 80%;
+    width: 90%;
     height: 55px;
     /* border: 2px solid red; */
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .slider_left__stars{
