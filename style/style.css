@@ -150,7 +150,7 @@ nav{
     border: 0.6px solid #6F8DAD;
     border-radius: 5px;
     /* border: 2px solid red; */
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
 .icons.nav{
@@ -340,7 +340,9 @@ margin:15px 0px;
     width: 208px;
     border-radius: 5px;
     border: 2px solid #89dae8bb;
-    margin: 30% auto 33px;
+    margin: 30% auto 17px;
+    position: relative;
+    left: -20px;
     font-family: "PlusJakartaDisplayRegular";
     font-size: 20px;
     cursor: pointer;
@@ -471,7 +473,7 @@ footer{
 .main_right{
     width: 84%;
     /* border: 2px solid red; */
-    margin-right: 25px;
+    padding-right: 25px;
 }
 
 
@@ -527,7 +529,7 @@ margin:5px 0px;
 .left_text__btn{
     min-height: 41px;
     width: 158px;
-    margin: 4% 80px 20px;
+    margin: auto 90px 30px;
     font-size: 16px;
 }
 .big_slider__right{
@@ -889,6 +891,7 @@ position: relative;
     border-radius: 5px;
     border: 2px solid #89dae839;
     margin: 15% auto 20px;
+    left: 0px;
     font-size: 18px;
 
 }
